@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "name": "utoopack-qiankun2-master",
+  "scripts": {
+    "dev": "PORT=8100 max dev",
+    "setup": "max setup",
+    "build": "max build"
+  },
+  "dependencies": {
+    "@umijs/max": "4.6.67",
+    "antd": "^5.26.1",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.23",
+    "@types/react-dom": "^18.3.7",
+    "typescript": "^5.8.3"
+  }
+}

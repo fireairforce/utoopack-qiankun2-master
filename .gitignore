@@ -1,0 +1,5 @@
+node_modules
+dist
+.turbopack
+src/.umi
+src/.umi-production
