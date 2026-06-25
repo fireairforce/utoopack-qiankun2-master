@@ -5,7 +5,7 @@ export default defineConfig({
     master: {
       apps: [
         {
-          name: 'app1',
+          name: 'utoopack-qiankun2-slave',
           entry: '//localhost:8101',
         },
       ],
@@ -13,6 +13,7 @@ export default defineConfig({
   },
   routes: [
     { path: '/', component: 'index' },
-    { path: '/app1/*', microApp: 'app1' },
+    { path: '/app1/*', microApp: 'utoopack-qiankun2-slave' },
   ],
+  utoopack: {}
 });

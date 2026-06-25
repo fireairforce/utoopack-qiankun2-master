@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "PORT=8100 max dev",
     "setup": "max setup",
-    "build": "max build"
+    "build": "max build",
+    "preview": "max preview --port 8100"
   },
   "dependencies": {
     "@umijs/max": "4.6.67",
